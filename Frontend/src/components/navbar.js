@@ -8,10 +8,13 @@ const Navbar = () => {
   const handleLogout = () => {
     logout();
     navigate('/');
+
+
   };
 
   return (
     <nav className="bg-blue-600 text-white py-4 shadow-md">
+      
       <div className="max-w-7xl mx-auto px-5">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <Link to="/" className="text-2xl font-bold text-white no-underline">
