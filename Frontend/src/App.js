@@ -7,7 +7,7 @@ import Register from './pages/Register';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import EventDetail from './pages/EventDetail';
-import OrganizerDashboard from './pages/OrganizerDashboard';
+import OrganiserDashboard from './pages/OrganiserDashboard';
 import UserDashboard from './pages/UserDashboard';
 import CreateEvent from './pages/CreateEvent';
 import EditEvent from './pages/EditEvent';
@@ -54,7 +54,7 @@ function AppRoutes() {
           path="/organizer/dashboard"
           element={
             <PrivateRoute requireOrganizer>
-              <OrganizerDashboard />
+              <OrganiserDashboard />
             </PrivateRoute>
           }
         />
